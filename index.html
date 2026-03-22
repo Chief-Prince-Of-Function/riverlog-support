@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RiverLog Support</title>
+  <meta name="description" content="RiverLog support page for help, bug reports, and feedback." />
+  <style>
+    :root {
+      --bg: #0f2f28;
+      --card: #173d35;
+      --text: #f3f7f5;
+      --muted: #c6d6d1;
+      --accent: #13a38b;
+      --border: rgba(255,255,255,0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0b241f 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(19, 163, 139, 0.14);
+      border: 1px solid rgba(19, 163, 139, 0.35);
+      color: #c8fff4;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+      line-height: 1.1;
+    }
+
+    .sub {
+      max-width: 700px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      margin-top: 22px;
+      backdrop-filter: blur(4px);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    a {
+      color: #8ff3dd;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="badge">RiverLog Support</div>
+      <h1>Help for RiverLog</h1>
+      <p class="sub">
+        RiverLog is built to help anglers track catches, log trips, manage gear, and preserve time on the water.
+        For support, bug reports, or feedback, reach out below.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:veteransgooutdoors@gmail.com">veteransgooutdoors@gmail.com</a></p>
+      <p>Please include your device model, iOS version, and a short description of the issue if you are reporting a bug.</p>
+      <div class="btns">
+        <a class="btn" href="mailto:veteransgooutdoors@gmail.com?subject=RiverLog%20Support">Email Support</a>
+        <a class="btn secondary" href="privacy.html">View Privacy Policy</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Helpful info to send</h2>
+      <ul>
+        <li>Your device model and operating system version</li>
+        <li>What you were doing when the issue happened</li>
+        <li>Whether the problem can be repeated</li>
+        <li>Screenshots if available</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>About RiverLog</h2>
+      <p>
+        RiverLog is currently in active development, and feedback helps shape future updates.
+        Thank you for testing, using, and improving the app.
+      </p>
+    </div>
+
+    <div class="footer">
+      © 2026 RiverLog
+    </div>
+  </div>
+</body>
+</html>
